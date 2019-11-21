@@ -1,5 +1,5 @@
-# Exercism JavaScript
-Exercism.io Coding Challenges
+## Exercism.io Coding Challenges 
+### JavaScript Track
 
 *"We are a not-for-profit organisation providing opportunity through programming education"*
 
