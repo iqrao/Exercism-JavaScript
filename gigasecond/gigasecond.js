@@ -4,6 +4,6 @@
 //
 
 export const gigasecond = () => {
-  gigasecond = gigasecond.setMilliseconds();
-  return gigasecond;
+  //gigasecond = gigasecond.setMilliseconds();
+  return this.gigasecond.getMilliseconds();
 };
