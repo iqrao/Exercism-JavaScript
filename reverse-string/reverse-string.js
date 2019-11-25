@@ -4,10 +4,9 @@
 //
 
 export const reverseString = (input) => {
-  let inputSplit = input.split("");
-  let inputReverse = inputSplit.reverse();
-  let inputJoin = inputReverse.join("");
-  return inputJoin;
-
-  //return input.split("").reverse().join("");
+  // let inputSplit = input.split("");
+  // let inputReverse = inputSplit.reverse();
+  // let inputJoin = inputReverse.join("");
+  // return inputJoin;
+  return input.split("").reverse().join("");
 };
