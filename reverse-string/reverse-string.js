@@ -14,6 +14,6 @@ export const reverseString = (input) => {
   // let inputJoin = inputReverse.join("");
   // return inputJoin;
   //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  // combine methods in js w/ . for one line. 
+  // combine built in methods in js w/ "." for one line. 
   return input.split("").reverse().join("");
 };
