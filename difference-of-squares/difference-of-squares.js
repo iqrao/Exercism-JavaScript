@@ -4,12 +4,16 @@
 //
 
 export class Squares {
-  constructor(squares1) {
-    return squares1;
+  constructor() {
+    throw new Error("Remove this statement and implement this function");
   }
 
   get sumOfSquares() {
-    throw new Error("Remove this statement and implement this function");
+    let sum = 0;
+    for (let i = 1; i <= 10; i++) {
+      sum += (i * i)
+    } 
+    return sum;
   }
 
   get squareOfSum() {
