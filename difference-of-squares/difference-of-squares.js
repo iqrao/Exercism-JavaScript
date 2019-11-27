@@ -4,8 +4,8 @@
 //
 
 export class Squares {
-  constructor() {
-    throw new Error("Remove this statement and implement this function");
+  constructor(squares1) {
+    return squares1;
   }
 
   get sumOfSquares() {
