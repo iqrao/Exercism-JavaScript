@@ -5,22 +5,28 @@
 
 export class Squares {
   constructor() {
-    throw new Error("Remove this statement and implement this function");
+    ;
   }
 
   get sumOfSquares() {
-    let sum = 0;
+    let sumOfSquares = 0;
     for (let i = 1; i <= 10; i++) {
-      sum += (i * i)
+    sumOfSquares += (i * i)
     } 
-    return sum;
+    return sumOfSquares;
   }
 
   get squareOfSum() {
-    throw new Error("Remove this statement and implement this function");
+    let sum = 0;
+    for(let i = 1; i <= 10; i++) {
+    sum += i;
+    squareOfSum = sum * sum;
+    }
+    return squareOfSum;
   }
 
   get difference() {
-    throw new Error("Remove this statement and implement this function");
+    let difference = squareOfSum - sumOfSquares;
+    return difference;
   }
 }
