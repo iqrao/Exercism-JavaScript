@@ -4,13 +4,18 @@
 //
 
 export class Squares {
-  constructor() {
-    ;
+  constructor(max) {
+    let squares1 = 1;
+    const squares5 = 5;
+    const squares100 = 100;
+    squares1 = max;
+
+
   }
 
   get sumOfSquares() {
     let sumOfSquares = 0;
-    for (let i = 1; i <= 10; i++) {
+    for (let i = 1; i <= max; i++) {
     sumOfSquares += (i * i)
     } 
     return sumOfSquares;
@@ -18,7 +23,7 @@ export class Squares {
 
   get squareOfSum() {
     let sum = 0;
-    for(let i = 1; i <= 10; i++) {
+    for(let i = 1; i <= max; i++) {
     sum += i;
     squareOfSum = sum * sum;
     }
@@ -26,7 +31,7 @@ export class Squares {
   }
 
   get difference() {
-    let difference = squareOfSum - sumOfSquares;
+    let difference = this.squareOfSum - this.sumOfSquares;
     return difference;
   }
 }
