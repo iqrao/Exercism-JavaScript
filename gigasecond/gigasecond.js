@@ -3,7 +3,6 @@
 // convenience to get you started writing code faster.
 //
 
-export const gigasecond = () => {
-  //gigasecond = gigasecond.setMilliseconds();
-  return this.gigasecond.getMilliseconds();
-};
+export const gigasecond = (time) => new Date(+ time + 1e9 * 1000);
+
+
